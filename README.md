@@ -1,6 +1,3 @@
-Siap 👍
-Berikut **README.md profesional** yang **rapi, jelas, dan cocok untuk tugas UAS**, sekaligus **layak dipajang di GitHub**.
-Bahasanya formal tapi tetap mudah dipahami dosen.
 
 ---
 
