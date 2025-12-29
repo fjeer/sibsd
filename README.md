@@ -1,59 +1,200 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Siap 👍
+Berikut **README.md profesional** yang **rapi, jelas, dan cocok untuk tugas UAS**, sekaligus **layak dipajang di GitHub**.
+Bahasanya formal tapi tetap mudah dipahami dosen.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+# 🗑️ Aplikasi Manajemen Bank Sampah
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**Tugas UAS – Pemrograman Web Lanjut**
+Program Studi **S1 Teknologi Informasi – Semester 5**
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📌 Deskripsi Aplikasi
 
-## Learning Laravel
+Aplikasi **Manajemen Bank Sampah** adalah sistem berbasis web yang digunakan untuk mengelola proses **setor sampah**, **pengelolaan nasabah**, **petugas**, **jenis sampah**, serta **laporan transaksi**.
+Aplikasi ini dibangun menggunakan **Laravel** sebagai implementasi konsep **Pemrograman Web Lanjut** seperti MVC, autentikasi, relasi database, dan manajemen data dinamis.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🎯 Tujuan Pembuatan
 
-## Laravel Sponsors
+* Memenuhi **Tugas Ujian Akhir Semester (UAS)** mata kuliah **Pemrograman Web Lanjut**
+* Mengimplementasikan konsep:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+  * MVC (Model–View–Controller)
+  * Autentikasi & Authorization
+  * Relasi database
+  * Validasi data
+  * CRUD (Create, Read, Update, Delete)
+* Membuat sistem nyata yang relevan dengan permasalahan lingkungan
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🧩 Fitur Aplikasi
 
-## Contributing
+### 🔐 Autentikasi & Role
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+* Login menggunakan **username atau email**
+* Role pengguna:
 
-## Code of Conduct
+  * **Admin**
+  * **Petugas**
+  * **Nasabah**
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 👥 Manajemen Pengguna
 
-## Security Vulnerabilities
+* Data Admin
+* Data Petugas
+* Data Nasabah
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 🗑️ Manajemen Sampah
 
-## License
+* Tambah, ubah, hapus jenis sampah
+* Harga per kilogram
+* Status aktif/nonaktif
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### ♻️ Transaksi Setor Sampah
+
+* Input transaksi setor sampah
+* Petugas otomatis tercatat sesuai user login
+* Perhitungan berat & poin
+
+### 📊 Dashboard
+
+* Total nasabah
+* Total petugas
+* Total transaksi setor sampah
+* Grafik setoran sampah bulanan
+
+### 📑 Laporan
+
+* Filter berdasarkan:
+
+  * Tanggal
+  * Nasabah
+  * Jenis sampah
+* Rekap total berat & poin
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi  | Keterangan              |
+| ---------- | ----------------------- |
+| Laravel    | Framework Backend (PHP) |
+| PHP        | Bahasa Pemrograman      |
+| MySQL      | Database                |
+| Blade      | Template Engine         |
+| Bootstrap  | UI Framework            |
+| Chart.js   | Grafik                  |
+| JavaScript | Interaksi Frontend      |
+
+---
+
+## 🗃️ Struktur Database (Ringkas)
+
+* **users**
+* **profiles**
+* **sampah**
+* **setor_sampah**
+
+Relasi utama:
+
+* User (nasabah) ➝ Setor Sampah
+* User (petugas) ➝ Setor Sampah
+* Sampah ➝ Setor Sampah
+
+---
+
+## 🚀 Cara Menjalankan Aplikasi
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/username/bank-sampah.git
+cd bank-sampah
+```
+
+### 2️⃣ Migrasi & Seeder
+
+```bash
+php artisan migrate --seed
+```
+
+### 3️⃣ Jalankan Server
+
+```bash
+php artisan serve
+```
+
+Akses aplikasi di:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 🔑 Akun Default (Seeder)
+
+| Role    | Username   | Password |
+| ------- | ---------- | -------- |
+| Admin   | superadmin | admin123 |
+| Petugas | petugas1   | petugas123 |
+
+---
+
+## 📂 Struktur Folder Penting
+
+```text
+app/
+ ├── Models/
+ ├── Http/Controllers/
+resources/
+ ├── views/
+database/
+ ├── migrations/
+ ├── seeders/
+routes/
+ ├── web.php
+```
+
+---
+
+## 📚 Materi yang Diimplementasikan (Sesuai PWL)
+
+* Laravel MVC
+* Authentication & Session
+* Middleware & Role
+* Validation Request
+* Eloquent ORM
+* Migration & Seeder
+* Relasi Database
+* Blade Template
+* Chart.js Integration
+
+---
+
+## 👨‍🎓 Identitas Mahasiswa
+
+* **Nama**   : *Fahmi Bahrul Widad*
+* **NIM**    : *2321500018*
+* **Prodi**  : S1 Teknologi Informasi
+* **Semester** : 5
+* **Mata Kuliah** : Pemrograman Web Lanjut
+
+---
+
+## 📝 Penutup
+
+Aplikasi ini dikembangkan sebagai bentuk penerapan konsep **Pemrograman Web Lanjut** dalam studi kasus nyata **Manajemen Bank Sampah**.
+Diharapkan aplikasi ini dapat menjadi referensi pembelajaran sekaligus solusi digital sederhana yang bermanfaat.
+
+---
+
+📌 **Catatan**
+Project ini dibuat untuk keperluan **akademik (UAS)**.
+
+---
