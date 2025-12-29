@@ -111,7 +111,7 @@ Relasi utama:
 
 ```bash
 git clone https://github.com/fjeer/sibsd.git
-cd bank-sampah
+cd sibsd
 ```
 
 ### 2️⃣ Migrasi & Seeder
