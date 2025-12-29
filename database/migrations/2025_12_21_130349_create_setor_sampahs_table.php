@@ -20,7 +20,6 @@ return new class extends Migration
             $table->decimal('total_poin', 12,2)->nullable();
             $table->date('tanggal_transaksi');
             $table->timestamps();
-            $table->softDeletes();
 
             $table->foreign('nasabah_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('petugas_id')->references('id')->on('users')->nullOnDelete();

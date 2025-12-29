@@ -100,6 +100,9 @@ class SetorSampahController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $setor = SetorSampah::findOrFail($id);
+        $setor->delete();
+
+        return redirect()->route('setor.index')->with('success', 'transaksi berhasil dihapus.');
     }
 }
