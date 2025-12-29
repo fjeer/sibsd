@@ -110,7 +110,7 @@ Relasi utama:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/username/bank-sampah.git
+git clone https://github.com/fjeer/sibsd.git
 cd bank-sampah
 ```
 
